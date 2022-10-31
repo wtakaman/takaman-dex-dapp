@@ -1,34 +1,129 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div id="top"></div>
 
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+
+
+
+<!-- PROJECT LOGO -->
+<br />
+<div >
+
+<h3 align="center">Takaman - DEX - dApp Project</h3>
+
+  <p align="center">
+    Simple dApp interacting with a smart contract in Goerli testnet
+    <br />
+    <a href="https://github.com/wtakaman/takaman-dex-dapp"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/wtakaman/takaman-dex-dapp">View Demo</a>
+    ·
+    <a href="https://github.com/wtakaman/takaman-dex-dapp/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/wtakaman/takaman-dex-dapp/issues">Request Feature</a>
+  </p>
+</div>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+Simple DEX - Uniswap V1 like - dApp project using Ethers.js and React to interact with a [Smart contract](https://github.com/wtakaman/takaman-dex-smart-contract) 
+
+Demo: [https://takaman-dex-dapp.vercel.app/](https://takaman-dex-dapp.vercel.app/)
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+### Built With
+
+* [React.js](https://reactjs.org/)
+* [Ethers.js](https://docs.ethers.io/v5/)
+* [Materialize](https://materializecss.com)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+You should have Metamask installed and configured. Check here to find out more:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+[https://metamask.io/](https://metamask.io/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Also you need to have some GoerliETH which you can google to find a working faucet.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Installation
+Run `npm install & npm run start`
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+<!-- USAGE EXAMPLES -->
+## Usage
+1. Open the app at [http://localhost:3000](http://localhost:3000)
+2. Connect yout Metamask - Goerli testnet
 
-To learn more about Next.js, take a look at the following resources:
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+<!-- ROADMAP -->
+## Roadmap
+See the [open issues](https://github.com/wtakaman/takaman-dex-dapp/issues) for a full list of proposed features (and known issues).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+<!-- CONTRIBUTING -->
+## Contributing
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- CONTACT -->
+## Contact
+
+takaman.eth - [@wtakaman](https://twitter.com/wtakaman)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/wtakaman/takaman-dex-dapp.svg?style=for-the-badge
+[contributors-url]: https://github.com/wtakaman/takaman-dex-dapp/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/wtakaman/takaman-dex-dapp.svg?style=for-the-badge
+[forks-url]: https://github.com/wtakaman/takaman-dex-dapp/network/members
+[stars-shield]: https://img.shields.io/github/stars/wtakaman/takaman-dex-dapp.svg?style=for-the-badge
+[stars-url]: https://github.com/wtakaman/takaman-dex-dapp/stargazers
+[issues-shield]: https://img.shields.io/github/issues/wtakaman/takaman-dex-dapp.svg?style=for-the-badge
+[issues-url]: https://github.com/wtakaman/takaman-dex-dapp/issues
+[license-shield]: https://img.shields.io/github/license/wtakaman/takaman-dex-dapp.svg?style=for-the-badge
+[license-url]: https://github.com/wtakaman/takaman-dex-dapp/blob/master/LICENSE.txt
+[product-screenshot]: images/screenshot.png
